@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.my-testing-addon" name="Demo Addon" version="1.0.0" provider-name="Arka">
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_US">Demo Addon</summary>
+
+		<summary lang="hi"> </summary>
+
+		<description lang="en">This is a testing kodi add-on.</description>
+		<description lang="hi">यह एक परीक्षण कोडी एड-ऑन हैै</description>
+
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=158540</forum>
+		<website></website>
+		<email>manojdatt1it@gmail.com</email>
+		<source>https://github.com/ManojDatt/plugin.video.my-testing-addon.git</source>
+
+	</extension>
+
+	<extension point="xbmc.addon.repository">
+	 <info>https://github.com/ManojDatt/AddonRepo/blob/master/Plugin/addons.xml</info>
+	 <checksum>https://github.com/ManojDatt/AddonRepo/blob/master/Plugin/addons.xml.md5</checksum>
+	 <datadir zip="true">https://github.com/ManojDatt/AddonRepo/tree/master/Plugin</datadir>
+ </extension>
+
+</addon>
