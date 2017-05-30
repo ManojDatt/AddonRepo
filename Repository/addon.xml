@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.my-testing-addon" name="Demo Addon" version="1.0.0" provider-name="Arka">
-	<requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-    <import addon="script.module.t1mlib" version="1.0.15"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-  </extension>
-
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_US">Demo Addon</summary>
 
@@ -23,14 +15,13 @@
 		<website></website>
 		<email>manojdatt1it@gmail.com</email>
 		<source>https://github.com/ManojDatt/plugin.video.my-testing-addon.git</source>
-		<assets>
-			<icon>resources/data/icon.png</icon>
-			<fanart>resources/data/fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
+
 	</extension>
 
+	<extension point="xbmc.addon.repository">
+	 <info>https://github.com/ManojDatt/AddonRepo/blob/master/Plugin/addons.xml</info>
+	 <checksum>https://github.com/ManojDatt/AddonRepo/blob/master/Plugin/addons.xml.md5</checksum>
+	 <datadir zip="true">https://github.com/ManojDatt/AddonRepo/tree/master/Plugin</datadir>
+ </extension>
 
 </addon>
